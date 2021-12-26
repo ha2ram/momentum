@@ -1,3 +1,113 @@
+body {
+  margin: 0;
+  color: whitesmoke;
+  font-family: 'nanumsquare';
+  background-repeat: no-repeat;
+}
+
 .hidden {
   display: none;
+}
+
+#weather {
+  margin: 20px;
+  text-align: right;
+}
+
+#weather span {
+  display: block;
+}
+
+#weather span:first-child {
+  font-size: 24px;
+}
+
+.clock-container {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 150px;
+}
+
+.greeting-container {
+  text-align: center;
+  font-size: 20px;
+  height: 60px;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form input {
+  background: none;
+  padding: 8px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+
+#login-form input::placeholder {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+#todo-form input {
+  background: none;
+  padding: 8px;
+  width: 400px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+
+#todo-form input::placeholder {
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#todo-list {
+  text-align: center;
+}
+
+#todo-list li {
+  list-style: none;
+  margin: 4px;
+  font-size: 20px;
+}
+
+#todo-list button {
+  background: none;
+  border: none;
+}
+
+#quote {
+  position: fixed;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#quote span {
+  display: block;
+  margin: 8px;
+}
+#quote span:last-child {
+  font-size: 16px;
 }

@@ -1,13 +1,5 @@
 const clock = document.querySelector('h2#clock');
 
-// function sayHello() {
-//   console.log('hello');
-// }
-
-// setInterval(sayHello, 5000);
-
-// setTimeout(sayHello, 5000);
-
 function getClock() {
   const date = new Date();
   const hours = String(date.getHours()).padStart(2, '0');

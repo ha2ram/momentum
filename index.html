@@ -4,34 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Momentum App</title>
+    <title>Momentum</title>
   </head>
   <body>
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <button>Log In</button>
-    </form>
+    <div id="background"></div>
 
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <!-- <a href="http://nomadcoders.co">Go to courses</a> -->
-
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-
-    <div id="quote">
+    <div id="weather">
       <span></span>
       <span></span>
     </div>
 
-    <div id="weather">
+    <div class="clock-container">
+      <h2 id="clock">00:00:00</h2>
+    </div>
+
+    <div class="greeting-container">
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div class="todo-container">
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quote">
       <span></span>
       <span></span>
     </div>
